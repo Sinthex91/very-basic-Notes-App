@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header > h1 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.note {
+  font-size: 1.2rem;
+  width: 95%;
+  margin: 0.5rem auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2px;
+  padding-left: 7px;
+}
+#noteInput {
+  width: 95%;
+}
+.input {
+  text-align: center;
+}
+.input > button {
+  background-color: goldenrod;
+  border: 1px solid goldenrod;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  padding: 5px;
+  width: 95%;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+#reset {
+  text-align: center;
+}
+#resetBtn {
+  background-color: rgb(197, 73, 73);
+  border: 1px solid rgb(197, 73, 73);
+  border-radius: 5px;
+  font-size: 1.1rem;
+  padding: 6px;
+  width: 35%;
+  font-weight: 600;
+  margin-top: 1rem;
+}
